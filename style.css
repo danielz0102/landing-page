@@ -128,3 +128,32 @@ article {
     border-radius: 8px;
     margin-bottom: 8px;
 }
+
+/* quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    align-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+figure {
+    max-width: 775px;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: right;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+figcaption cite {
+    font-style: normal;
+}
