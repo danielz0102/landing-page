@@ -80,8 +80,10 @@ a {
     background-color: #3882f6;
     padding: 8px 24px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* info section */
@@ -156,4 +158,32 @@ figcaption {
 
 figcaption cite {
     font-style: normal;
+}
+
+/* CTA section */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    width: 75%;
+    color: #fff;
+    background-color: #3882f6;
+    padding: 32px 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 920px;
+}
+
+.cta-box p {
+    font-weight: 300;
+}
+
+.sign-up-btn--invert {
+    border: #fff solid 2px;
+    color: #fff;
 }
