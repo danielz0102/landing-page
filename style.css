@@ -44,12 +44,13 @@ a {
 
 .header__downside {
     display: flex;
-    padding-bottom: 64px;
-    gap: 92px;
+    padding-bottom: 88px;
+    justify-content: space-between;
 }
 
 .hero-main-text {
     font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -62,10 +63,15 @@ a {
     flex: 1;
 }
 
+.left {
+    max-width: 450px;
+}
+
 .right {
     background-color: #6d747d;
     text-align: center;
     align-content: center;
+    max-width: 550px;
 }
 
 .sign-up-btn {
