@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 200vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
@@ -21,6 +21,7 @@ header {
     flex-direction: column;
     padding: 0 128px;
     gap: 64px;
+    padding-bottom: 128px;
 }
 
 nav {
@@ -46,7 +47,6 @@ a {
 
 .header__downside {
     display: flex;
-    padding-bottom: 88px;
     justify-content: space-between;
 }
 
@@ -115,6 +115,7 @@ article {
 .cards-container {
     display: flex;
     gap: 32px;
+    padding-bottom: 128px;
 }
 
 .card {
@@ -136,6 +137,7 @@ article {
 .quote-section {
     background-color: #e5e7eb;
     align-content: center;
+    padding: 128px 0;
 }
 
 .quote-text {
@@ -166,6 +168,7 @@ figcaption cite {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 128px 0;
 }
 
 .cta-box {
@@ -186,4 +189,12 @@ figcaption cite {
 .sign-up-btn--invert {
     border: #fff solid 2px;
     color: #fff;
+}
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 32px 0;
 }
